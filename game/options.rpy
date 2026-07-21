@@ -215,7 +215,7 @@ init python:
 ## The username and project name associated with an itch.io project, separated
 ## by a slash.
 
-define build.itch_project = "renpytom/the-question"
+define build.itch_project = "shitengchen-bit/all-you-zombies"
 
 
 # Enable the console.

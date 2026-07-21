@@ -8,6 +8,12 @@ game/cache/
 game/saves/
 game/persistent
 
+# Ren'Py runtime / build artifacts
+log.txt
+progressive_download.txt
+traceback.txt
+errors.txt
+
 # Python bytecode
 *.pyc
 __pycache__/
@@ -30,3 +36,4 @@ assets_src/char_ref/
 # Temp
 *.tmp
 .trash/
+assets_src/ghpages_tmp/
