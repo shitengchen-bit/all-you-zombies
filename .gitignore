@@ -1,0 +1,32 @@
+# Ren'Py compiled scripts
+*.rpyc
+*.rpyb
+*.rpymc
+
+# Ren'Py cache and saves
+game/cache/
+game/saves/
+game/persistent
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Build output
+build/
+*.zip
+*.tar.bz2
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Large source assets & backups (not needed in repo)
+assets_src/tl_backup/
+assets_src/char_ref/
+
+# Temp
+*.tmp
+.trash/
