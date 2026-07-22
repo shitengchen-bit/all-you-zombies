@@ -1,0 +1,12 @@
+# RenPyWeb progressive download rules - first match applies
+# '+' = progressive download, '-' = keep in game.zip (default)
+# See https://www.renpy.org/doc/html/build.html#classifying-and-ignoring-files for matching
+#
+# 全部保留在 game.zip 内（自包含），不使用渐进式下载。
+# 渐进式下载在 GitHub Pages 上不可靠（图片/音频加载失败），
+# 改为自包含后 game.zip 约 45MB（<100MB），可作为普通 git 文件部署。
+#
+# +/- type path
+- image game/**
+- music game/audio/**
+- voice game/voice/**
