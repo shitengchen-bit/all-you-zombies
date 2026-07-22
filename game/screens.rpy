@@ -558,17 +558,17 @@ screen about():
             hbox:
                 spacing 15
                 text _("改编 · 剧本") style "about_small"
-                text _("sunshuai")
+                text _("shitengchen-bit")
 
             hbox:
                 spacing 15
                 text _("程序") style "about_small"
-                text _("sunshuai")
+                text _("shitengchen-bit")
 
             hbox:
                 spacing 15
                 text _("美术") style "about_small"
-                text _("sunshuai（AI 辅助生成）")
+                text _("shitengchen-bit（AI 辅助生成）")
 
             null height 15
 
