@@ -48,7 +48,7 @@ init python:
         if not store.__dict__.get(clue_name, False):
             setattr(store, clue_name, True)
             store.clue_count += 1
-            renpy.play("audio/sfx/clue.ogg", channel="sound")
+            renpy.play("audio/sfx/clue.wav", channel="sound")
             renpy.notify("发现了一条线索……")
 
     def determine_ending():

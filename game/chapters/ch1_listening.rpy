@@ -7,7 +7,7 @@
 label act1_hub:
 
     scene bg bar_main
-    show john neutral at right
+    show john neutral at char_right
     with dissolve
 
     # 检查是否5个话题全部完成
@@ -50,7 +50,7 @@ label act1_hub:
 label topic_childhood:
 
     scene bg bar_main
-    show john neutral at right
+    show john neutral at char_right
 
     john "童年。"
     n "他重复了一遍这个词，像是在嚼一块石头。"
@@ -65,7 +65,7 @@ label topic_childhood:
     # ----- 闪回 FB-01：孤儿院 -----
     scene bg orphanage_ext
     with slow_dissolve
-    # play music "audio/bgm/orphanage.ogg"
+    play music "audio/bgm/orphanage.wav"
 
     n "1945年。克利夫兰。冬天。"
     n "雪下得很大。一家孤儿院的铁门，锈迹斑斑。"
@@ -110,7 +110,7 @@ label topic_childhood:
 
     # ----- 回到酒吧 -----
     scene bg bar_main
-    show john neutral at right
+    show john neutral at char_right
     with slow_dissolve
 
     john "她从小就觉得，自己是坏的。"
@@ -152,7 +152,7 @@ label topic_childhood:
 label topic_love:
 
     scene bg bar_main
-    show john neutral at right
+    show john neutral at char_right
 
     john "爱。"
     n "他说这个字的时候，声音轻得像是怕惊动什么。"
@@ -167,7 +167,7 @@ label topic_love:
     # ----- 闪回 FB-02：公园初恋 -----
     scene bg park_spring
     with slow_dissolve
-    # play music "audio/bgm/park_love.ogg"
+    play music "audio/bgm/park_love.wav"
 
     n "1963年。四月。公园里的樱花开了。"
     n "阳光从花瓣的缝隙里漏下来，碎成一地金子。"
@@ -177,7 +177,7 @@ label topic_love:
 
     n "然后，一个男人在她身边坐下了。"
 
-    show stranger silhouette at center
+    show stranger silhouette at char_center
     with dissolve
 
     n "他看起来很普通。但简一抬头，就愣住了。"
@@ -228,7 +228,7 @@ label topic_love:
 
     # ----- 回到酒吧 -----
     scene bg bar_main
-    show john neutral at right
+    show john neutral at char_right
     with slow_dissolve
 
     n "他讲到这里，停住了。他的手指无意识地摩挲着杯沿。"
@@ -268,7 +268,7 @@ label topic_love:
 label topic_betrayal:
 
     scene bg bar_main
-    show john neutral at right
+    show john neutral at char_right
 
     john "你问，他怎么了。"
     n "他一口喝干了杯里的酒。"
@@ -281,7 +281,7 @@ label topic_betrayal:
     # ----- 闪回 FB-03：公园诀别 -----
     scene bg park_night
     with slow_dissolve
-    # play music "audio/bgm/park_loss.ogg"
+    play music "audio/bgm/park_loss.wav"
 
     n "还是那个公园。还是那张长椅。"
     n "但樱花谢了。天黑了。月亮是冷的。"
@@ -310,7 +310,7 @@ label topic_betrayal:
 
     # ----- 回到酒吧 -----
     scene bg bar_main
-    show john neutral at right
+    show john neutral at char_right
     with slow_dissolve
 
     john "她后来一直在想，那天晚上，那个男人不是「跑了」。"
@@ -358,7 +358,7 @@ label topic_betrayal:
 label topic_loss:
 
     scene bg bar_main
-    show john neutral at right
+    show john neutral at char_right
 
     n "他沉默了很久。久到雨声都显得吵了。"
     john "接下来这一段，我从来没跟任何人讲过。"
@@ -373,7 +373,7 @@ label topic_loss:
     # ----- 闪回 FB-04：医院觉醒 -----
     scene bg hospital_corridor
     with slow_dissolve
-    # play music "audio/bgm/hospital.ogg"
+    play music "audio/bgm/hospital.wav"
 
     n "1964年。医院。白色的走廊，长得没有尽头。"
     n "荧光灯管在头顶嗡嗡作响，把一切都照得惨白。"
@@ -432,7 +432,7 @@ label topic_loss:
 
     # ----- 回到酒吧 -----
     scene bg bar_main
-    show john neutral at right
+    show john neutral at char_right
     with slow_dissolve
 
     n "酒吧里，他坐在我对面。"
@@ -484,7 +484,7 @@ label topic_loss:
 label topic_drift:
 
     scene bg bar_main
-    show john neutral at right
+    show john neutral at char_right
 
     john "后来的事，就无聊了。"
     john "一个没有过去的人，在城市里漂着。"

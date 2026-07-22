@@ -6,7 +6,7 @@ label act3_jump:
     # ----- 时间漩涡 -----
     scene bg time_vortex
     with dissolve
-    # play music "audio/bgm/time_vortex.ogg"
+    play music "audio/bgm/time_vortex.wav"
 
     n "这里不是任何地方。"
     n "这里是「之间」。"
@@ -44,7 +44,7 @@ label act3_jump:
 
     n "然后，他看见了她。"
 
-    show jane neutral at center
+    show jane neutral at char_center
     with dissolve
 
     n "长椅上，坐着一个少女。"

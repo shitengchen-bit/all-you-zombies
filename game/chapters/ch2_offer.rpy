@@ -4,7 +4,7 @@
 label act2_offer:
 
     scene bg bar_main
-    show john neutral at right
+    show john neutral at char_right
     with dissolve
 
     n "五个故事，讲完了。"
@@ -76,7 +76,7 @@ label act2_offer:
     # ----- 时间局 / 时间舱 -----
     scene bg time_lab
     with fade
-    # play music "audio/bgm/timetravel.ogg"
+    play music "audio/bgm/timetravel.wav"
 
     n "酒吧的后门，通向一条我从未带他走过的走廊。"
     n "走廊尽头，是一间……不属于这个时代的房间。"

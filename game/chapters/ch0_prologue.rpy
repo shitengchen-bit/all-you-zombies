@@ -6,8 +6,8 @@ label prologue:
     # ----- 场景建立 -----
     scene bg bar_main
     with fade
-    # play music "audio/bgm/bar_main.ogg" fadein 3.0
-    # play sound "audio/sfx/rain.ogg" loop
+    play music "audio/bgm/bar_main.wav" fadein 3.0
+    play sound "audio/sfx/rain.wav" loop
 
     n "雨从傍晚下到现在，还没有要停的意思。"
     n "霓虹灯的光穿过雨幕，在吧台上投下一道道湿漉漉的红。"
@@ -30,7 +30,7 @@ label prologue:
     n "进来的是一个年轻男人。"
 
     scene bg bar_main
-    show john neutral at right
+    show john neutral at char_right
     with dissolve
 
     n "他大概二十五六岁，瘦削，穿着一件旧得发白的男士衬衫，外面套着夹克。"

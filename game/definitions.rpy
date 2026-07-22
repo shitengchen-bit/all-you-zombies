@@ -17,3 +17,20 @@ image white = Solid("#ffffff")
 
 # 黑色场景（标准黑场，Ren'Py 通常内置 black，此处确保可用）
 image black = Solid("#000000")
+
+# ============ 角色立绘显示变换 ============
+# 立绘原图 1024×1536，缩放到 0.6（约920px高）并底部对齐，避免溢出屏幕
+transform char_left:
+    zoom 0.6
+    xalign 0.18
+    yalign 1.0
+
+transform char_center:
+    zoom 0.6
+    xalign 0.5
+    yalign 1.0
+
+transform char_right:
+    zoom 0.6
+    xalign 0.82
+    yalign 1.0

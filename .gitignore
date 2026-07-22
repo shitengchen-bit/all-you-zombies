@@ -37,3 +37,4 @@ assets_src/char_ref/
 *.tmp
 .trash/
 assets_src/ghpages_tmp/
+assets_src/web_rebuild/
