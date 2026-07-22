@@ -76,7 +76,7 @@ label act2_offer:
     # ----- 时间局 / 时间舱 -----
     scene bg time_lab
     with fade
-    play music "audio/bgm/timetravel.wav"
+    # play music "audio/bgm/timetravel.wav"
 
     n "酒吧的后门，通向一条我从未带他走过的走廊。"
     n "走廊尽头，是一间……不属于这个时代的房间。"

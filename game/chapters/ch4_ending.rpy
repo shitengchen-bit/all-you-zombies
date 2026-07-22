@@ -5,7 +5,7 @@ label ending_hub:
 
     scene bg bar_main
     with fade
-    play music "audio/bgm/ending_base.wav"
+    # play music "audio/bgm/ending_base.wav"
 
     n "我给自己倒了一杯酒。"
     n "这是我今晚，第一次为自己倒酒。"
@@ -35,7 +35,7 @@ label ending_hub:
 # ============================================================
 label ending_rage:
 
-    play music "audio/bgm/ending_rage.wav"
+    # play music "audio/bgm/ending_rage.wav"
 
     n "我看着杯子里的酒。"
     n "琥珀色的液体，晃啊晃，像一个小小的、旋转的牢笼。"
@@ -82,7 +82,7 @@ label ending_rage:
 # ============================================================
 label ending_peace:
 
-    play music "audio/bgm/ending_peace.wav"
+    # play music "audio/bgm/ending_peace.wav"
 
     n "我端着酒杯，回到吧台后面。"
     n "我把那只擦了一半的杯子，重新拿起来，慢慢地，擦完了。"
@@ -130,7 +130,7 @@ label ending_peace:
 # ============================================================
 label ending_vertigo:
 
-    play music "audio/bgm/ending_vertigo.wav"
+    # play music "audio/bgm/ending_vertigo.wav"
 
     n "我端着酒杯，站在吧台中间。"
     n "忽然，我觉得整个房间，轻轻地，转了一下。"
@@ -183,7 +183,7 @@ label ending_vertigo:
 # ============================================================
 label ending_epiphany:
 
-    play music "audio/bgm/ending_epiphany.wav"
+    # play music "audio/bgm/ending_epiphany.wav"
 
     n "我端着酒杯，站在吧台后面。"
     n "奇怪的是，我的心里，同时翻涌着三种东西。"
@@ -245,7 +245,7 @@ label ending_epiphany:
     # ============================================================
     scene bg room_1993
     with fade
-    play music "audio/bgm/room_1993.wav"
+    # play music "audio/bgm/room_1993.wav"
 
     n "1993年。"
     n "一间不大的房间。窗外，是暮色。"

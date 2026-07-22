@@ -6,7 +6,7 @@ label act3_jump:
     # ----- 时间漩涡 -----
     scene bg time_vortex
     with dissolve
-    play music "audio/bgm/time_vortex.wav"
+    # play music "audio/bgm/time_vortex.wav"
 
     n "这里不是任何地方。"
     n "这里是「之间」。"

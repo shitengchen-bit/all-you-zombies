@@ -15,8 +15,8 @@ label act1_hub:
         jump act2_offer
 
     # 返回酒吧时恢复主题BGM《钟》（闪回的氛围音切回主题；若《钟》已在播放则不重启）
-    if renpy.music.get_playing() != "audio/bgm/campanella.ogg":
-        play music "audio/bgm/campanella.ogg" fadein 2.0
+    # if renpy.music.get_playing() != "audio/bgm/campanella.ogg":
+        # play music "audio/bgm/campanella.ogg" fadein 2.0
 
     mono "（时钟滴答。雨声不断。)"
     mono "（他坐在我面前，像一本被雨水泡皱的书。)"
@@ -69,7 +69,7 @@ label topic_childhood:
     # ----- 闪回 FB-01：孤儿院 -----
     scene bg orphanage_ext
     with slow_dissolve
-    play music "audio/bgm/orphanage.wav"
+    # play music "audio/bgm/orphanage.wav"
 
     n "1945年。克利夫兰。冬天。"
     n "雪下得很大。一家孤儿院的铁门，锈迹斑斑。"
@@ -171,7 +171,7 @@ label topic_love:
     # ----- 闪回 FB-02：公园初恋 -----
     scene bg park_spring
     with slow_dissolve
-    play music "audio/bgm/park_love.wav"
+    # play music "audio/bgm/park_love.wav"
 
     n "1963年。四月。公园里的樱花开了。"
     n "阳光从花瓣的缝隙里漏下来，碎成一地金子。"
@@ -285,7 +285,7 @@ label topic_betrayal:
     # ----- 闪回 FB-03：公园诀别 -----
     scene bg park_night
     with slow_dissolve
-    play music "audio/bgm/park_loss.wav"
+    # play music "audio/bgm/park_loss.wav"
 
     n "还是那个公园。还是那张长椅。"
     n "但樱花谢了。天黑了。月亮是冷的。"
@@ -377,7 +377,7 @@ label topic_loss:
     # ----- 闪回 FB-04：医院觉醒 -----
     scene bg hospital_corridor
     with slow_dissolve
-    play music "audio/bgm/hospital.wav"
+    # play music "audio/bgm/hospital.wav"
 
     n "1964年。医院。白色的走廊，长得没有尽头。"
     n "荧光灯管在头顶嗡嗡作响，把一切都照得惨白。"
