@@ -194,6 +194,11 @@ init python:
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
 
+    ## 排除构建产物与源素材目录，避免被打包进发行版（尤其 web_build）
+    build.classify('build/**', None)
+    build.classify('assets_src/**', None)
+    build.classify('build.zip', None)
+
     ## To archive files, classify them as 'archive'.
 
     # build.classify('game/**.png', 'archive')
