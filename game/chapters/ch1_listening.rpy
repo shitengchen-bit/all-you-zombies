@@ -14,6 +14,10 @@ label act1_hub:
     if topics_complete():
         jump act2_offer
 
+    # 返回酒吧时恢复主题BGM《钟》（闪回的氛围音切回主题；若《钟》已在播放则不重启）
+    if renpy.music.get_playing() != "audio/bgm/campanella.ogg":
+        play music "audio/bgm/campanella.ogg" fadein 2.0
+
     mono "（时钟滴答。雨声不断。)"
     mono "（他坐在我面前，像一本被雨水泡皱的书。)"
     mono "（而我，可以翻开任何一页。)"

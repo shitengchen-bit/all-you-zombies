@@ -40,8 +40,9 @@ In the Ren'Py Launcher, select this project → "Build Distributions" to export 
 ## 制作 / Credits
 
 - **原著小说 / Original Story**：罗伯特·海因莱因《你们这些还魂尸》/ Robert A. Heinlein, "All You Zombies"
-- **改编 · 剧本 · 程序 / Adaptation, Script, Code**：sunshuai
-- **美术 / Art**：sunshuai（AI 辅助生成 / AI-assisted）
+- **改编 · 剧本 · 程序 / Adaptation, Script, Code**：shitengchen-bit
+- **美术 / Art**：shitengchen-bit（AI 辅助生成 / AI-assisted）
+- **音乐 / Music**：李斯特《钟》La Campanella · Greiss 演奏 · [Wikimedia Commons](https://zh.wikipedia.org/wiki/File:Liszt-La_Campanella-Greiss.ogg)（公有领域 / public domain）
 - **引擎 / Engine**：[Ren'Py](https://www.renpy.org/)
 
 ## 声明 / Disclaimer

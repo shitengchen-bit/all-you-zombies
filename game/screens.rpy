@@ -570,6 +570,11 @@ screen about():
                 text _("美术") style "about_small"
                 text _("shitengchen-bit（AI 辅助生成）")
 
+            hbox:
+                spacing 15
+                text _("音乐") style "about_small"
+                text _("李斯特《钟》La Campanella · Greiss 演奏 · Wikimedia Commons")
+
             null height 15
 
             text _("本作是基于海因莱因同名小说的原创同人改编，非商业作品，谨向原作致敬。")

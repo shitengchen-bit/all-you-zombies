@@ -6,7 +6,7 @@ label prologue:
     # ----- 场景建立 -----
     scene bg bar_main
     with fade
-    play music "audio/bgm/bar_main.wav" fadein 3.0
+    play music "audio/bgm/campanella.ogg" fadein 3.0
     play sound "audio/sfx/rain.wav" loop
 
     n "雨从傍晚下到现在，还没有要停的意思。"
